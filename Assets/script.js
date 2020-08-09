@@ -94,19 +94,12 @@ buttonContainer.addEventListener("click", function(event){
 });
 
 
-for (i=0; i<7; i++){
-var currentChoices = questionBank[currentQuestion].choices;
-if (event.target.nodeName == "BUTTON")
-event.target.innerText = currentChoices.correct;
-alert("correct!");
-
-
-
-
-
-
-
-}
+// for (i=0; i<7; i++){
+// var currentChoices = questionBank[currentQuestion].choices;
+// if (event.target.nodeName == "BUTTON")
+// event.target.innerText = currentChoices.correct;
+// alert("correct!");
+// }
 
 
 
